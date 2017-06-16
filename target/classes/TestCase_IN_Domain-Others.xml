@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Testcases Data="Data\Datas.xml">
+    <Testcase ID="Wordpress" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" Screenshot="N" SaveSource="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="15"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnWebsites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Wordpress']/span[2]" SaveSource="N"/>
+    </Testcase>
+    <Testcase ID="SmugMug" Description="SmugMug" NAME="SmugMug">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" Screenshot="N" SaveSource="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"
+              Screenshot="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnMedia Sites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_SmugMug']/span[2]" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnDnsConnect']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+    <Testcase ID="Facebook" Description="" NAME="">
+        <Step ID="1" URL="https://www.godaddy.com/hosting/web-hosting" SaveSource="N" DelayAfterAction="10"/>
+        <!--go to Domain manager first page-->
+        <Step ID="2" Action="Click" XPATH="//button[@class='btn btn-purchase btn-block cpanel_o365_tier1_036mo']" SaveSource="N" DelayAfterAction="10"/>
+        <!-- Click "Continue With These Options" button -->
+        <Step ID="3" Action="Click" XPATH="//a[@id='planConfigContinue']" SaveSource="N"/>
+        <!-- click the "No, thanks!" button -->
+        <Step ID="3.1" Action="Click" XPATH="//a[@id='no-domain-link']" SaveSource="N" DelayAfterAction="10"/>
+        <!-- Click "Proceed to Checkout " button -->
+        <Step ID="4" Action="Click" XPATH="//span[@id='cart-os-btn-submit']" SaveSource="N"/>
+        <!--input username and password-->
+        <Step ID="5.1" Action="Input" XPATH="//input[@id='username']" Value="test0147258" SaveSource="N"/>
+        <Step ID="5.2" Action="Input" XPATH="//input[@id='password']" Value="ZAQ!xsw2123" SaveSource="N"/>
+        <!--Click "Sign in"-->
+        <Step ID="6" Action="Click" XPATH="//*[@id='submitBtn']" SaveSource="N"/>
+        <!--Click "Proceed to Checkout "-->
+        <Step ID="7" Action="Click" XPATH="//span[@id='cart-os-btn-review']" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+
+    <Testcase ID="Twitter" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" DelayAfterAction="10"
+              Screenshot="N"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N" Screenshot="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Twitter']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+        <Step ID="2.3" Action="Click" XPATH="//*[@id='btnUrlCancel']" SaveSource="N" Screentshot="N"/>
+    </Testcase>
+
+    <Testcase ID="LinkedIn" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N" Screenshot="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_LinkedIn']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+
+    <Testcase ID="Pinterest" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" Screenshot="N" SaveSource="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N" Screenshot="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"
+              Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnSocial Sites_ShowMore']/span[2]/span" SaveSource="N"
+              Screenshot="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Pinterest']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+
+    <Testcase ID="Google+" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N" Screenshot="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnSocial Sites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Google+']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+    <Testcase ID="Shopify" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" Screenshot="N" SaveSource="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"
+              Screenshot="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Shopify']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+    <Testcase ID="Etsy" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" Screenshot="N" SaveSource="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Etsy']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+
+    <Testcase ID="Flickr" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" Screenshot="N" SaveSource="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" Screenshot="N" SaveSource="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnSocial Sites_ShowMore']/span[2]/span" Screenshot="N"
+              SaveSource="N"/>
+        <Step ID="1.8" Action="Click" XPATH="//*[@id='btnMedia Sites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Flickr']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+
+    <Testcase ID="YouTube" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" Screenshot="N" SaveSource="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" Screenshot="N" SaveSource="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnSocial Sites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_YouTube']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+
+    <Testcase ID="eBay" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_eBay']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+
+
+    <Testcase ID="Amazon" Description="Premium DNS: Home-1" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domaina manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Amazon']/span[1]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+
+    <Testcase ID="Instagram" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnMedia Sites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Instagram']/span[2]" SaveSource="N"/>
+        <Step ID="2.1" Action="Input" XPATH="//*[@id='inForwardURL']" Value="rsdgsergs" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnTemplateUrlNext']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+
+    <Testcase ID="Tumblr" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N" Screenshot="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnMedia Sites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.8" Action="Click" XPATH="//*[@id='btnWebsites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Tumblr']/span[2]" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnDnsCancel']/span" SaveSource="N" Screentshot="N"/>
+    </Testcase>
+    <Testcase ID="Weebly" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"
+              Screentshot="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnMedia Sites_ShowMore']/span[2]/span" SaveSource="N"
+              Screentshot="N"/>
+        <Step ID="1.8" Action="Click" XPATH="//*[@id='btnWebsites_ShowMore']/span[2]/span" SaveSource="N"
+              Screentshot="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Weebly']/span[2]" SaveSource="N"/>
+    </Testcase>
+    <Testcase ID="Wix" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" Screenshot="N" SaveSource="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N" Screenshot="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N"
+              Screentshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"
+              Screentshot="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnMedia Sites_ShowMore']/span[2]/span" SaveSource="N"
+              Screentshot="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Wix']/span[2]" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnDnsConnect']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+    <Testcase ID="Squarespace" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnMedia Sites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Squarespace']/span[2]" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnDnsConnect']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+    <Testcase ID="Eventbrite" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" Screenshot="N" SaveSource="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnWebsites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Eventbrite']/span[2]" SaveSource="N"/>
+    </Testcase>
+    <Testcase ID="Medium" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" Screenshot="N" SaveSource="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnWebsites_ShowMore']/span[2]/span" SaveSource="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_Medium']/span[2]" SaveSource="N" Screenshot="Y"/>
+    </Testcase>
+    <Testcase ID="WeddingWire" Description="" NAME="">
+        <Step ID="1" MODULE="FOS.MYAHOMEPAGE.GoToMYAWithNewAccount" SaveSource="N" Screenshot="N"/>
+        <!--go to Domain manager first page-->
+        <Step ID="1.1" Action="Click" XPATH="//*[@id='bar-1']/div[4]/div[2]" SaveSource="N" Screenshot="N"
+              DelayAfterAction="10"/>
+        <!--Click DDC6 button-->
+        <Step ID="1" MODULE="DOMAIN.DCC6.SwitchtoDCC6" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.5.1" Action="Click" XPATH="//*[@ng-click='trackSetupClick()']" SaveSource="N" Screenshot="N"/>
+        <!-- Find "Use my domain" button -->
+        <Step ID="1.5" Action="Click" XPATH="//*[@id='btnActivateConnection']/span/span" SaveSource="N" Screenshot="N"/>
+        <Step ID="1.6" Action="Click" XPATH="//*[@id='btnOnline Stores_ShowMore']/span[2]/span" SaveSource="N"
+              Screenshot="N"/>
+        <Step ID="1.7" Action="Click" XPATH="//*[@id='btnWebsites_ShowMore']/span[2]/span" SaveSource="N"
+              Screenshot="N"/>
+        <!--Show more-->
+        <Step ID="2" Action="Click" XPATH="//*[@id='btnTemplate_WeddingWire']/span[2]" SaveSource="N"/>
+        <Step ID="2.2" Action="Click" XPATH="//*[@id='btnDnsConnect']/span" SaveSource="N" Screentshot="Y"/>
+    </Testcase>
+</Testcases>
